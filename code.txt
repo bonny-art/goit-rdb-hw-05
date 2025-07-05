@@ -65,7 +65,7 @@ DETERMINISTIC
 NO SQL
 BEGIN
     DECLARE result FLOAT;
-    SET result = a * b;
+    SET result = a / b;
     RETURN result;
 END //
 
